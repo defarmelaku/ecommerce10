@@ -1,3 +1,5 @@
+
+
 @extends('layouts.app')
 @section('content')
 <div class="container pb-2">
@@ -9,7 +11,7 @@
  <div class="col-md-8">
  <div class="card">
  <div class="card-header">
- {{ __('product list') }}
+ {{ __(' PRODUCT LIST') }}
  </div>
  <div class="card-body">
  <table class="table table-striped table-bordered ">

@@ -1,4 +1,3 @@
-
 @extends('layouts.app')
 @section('content')
 <div class="container">
@@ -20,7 +19,7 @@
 </div>
 <div class="container ">
  <div class="col-md-8">
- <a class="btn btnsuccess" href="{{ route('catagory/list') }}" role="button"> {{ __('Back') }}</a>
+ <a class="btn btnsuccess" href="{{ route('catagory/get_all') }}" role="button"> {{ __('Back') }}</a>
  </div>
 </div>
 @endsection
